@@ -54,7 +54,7 @@ function parsePost(file) {
     file, ...meta,
     slug: file.replace(/^\d+-/, '').replace(/\.md$/, ''),
     catSlug: slugify(meta.categoria),
-    html: marked.parse(body),
+    html: marked.parse(body).replace(/<input (?:checked="" )?disabled="" type="checkbox">/g, '<span class="check" aria-hidden="true"></span>'),
     minutes: Math.max(1, Math.round(words / 200)),
   };
 }
@@ -135,10 +135,10 @@ const footer = `
 </html>
 `;
 
-const card = (p) => `
+const card = (p, h = 'h3') => `
       <article class="post-card">
         <p class="post-cat"><a href="/blog/categoria/${p.catSlug}/">${esc(p.categoria)}</a></p>
-        <h3><a href="/blog/${p.slug}/">${esc(p.titulo)}</a></h3>
+        <${h}><a href="/blog/${p.slug}/">${esc(p.titulo)}</a></${h}>
         <p class="post-desc">${esc(p.descricao)}</p>
         <p class="post-meta"><time datetime="${p.data}">${fmtDate(p.data)}</time> · ${p.minutes} min de leitura</p>
       </article>`;
@@ -171,7 +171,7 @@ function listPage({ rel, title, h1, intro, description, posts, cats, activeCat, 
     <p class="muted">${esc(intro)}</p>
   </header>
   <nav class="chips" aria-label="Categorias"><a href="/blog/"${activeCat ? '' : ' aria-current="page"'}>Todas</a>${chips}</nav>
-  <div class="post-grid">${posts.map(card).join('')}
+  <div class="post-grid">${posts.map((p) => card(p, 'h2')).join('')}
   </div>
 </main>` + footer;
 }
@@ -277,7 +277,7 @@ ${p.html}
   </article>
   <section class="related" aria-labelledby="rel-titulo">
     <h2 id="rel-titulo">Continue <em>lendo</em></h2>
-    <div class="post-grid">${related.map(card).join('')}
+    <div class="post-grid">${related.map((p) => card(p)).join('')}
     </div>
   </section>
 </main>` + footer);
@@ -286,7 +286,7 @@ ${p.html}
 // Últimas matérias na página inicial
 const homeFile = path.join(OUT, 'index.html');
 const recent = posts.length
-  ? `<div class="post-grid">${posts.slice(0, 3).map(card).join('')}\n    </div>`
+  ? `<div class="post-grid">${posts.slice(0, 3).map((p) => card(p)).join('')}\n    </div>`
   : '<p class="muted">Em breve, as primeiras matérias.</p>';
 fs.writeFileSync(homeFile, fs.readFileSync(homeFile, 'utf8').replace('<!-- BLOG_RECENTES -->', recent));
 
