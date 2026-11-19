@@ -103,7 +103,7 @@
 
   // Formulário de contato
   // Enquanto não houver um serviço de envio, a mensagem abre no app de e-mail.
-  var CONTACT_EMAIL = '[SEU E-MAIL]';
+  var CONTACT_EMAIL = 'contato.makconnect@gmail.com';
   var form = document.getElementById('form');
   var status = document.getElementById('form-status');
   form.addEventListener('submit', function (e) {
