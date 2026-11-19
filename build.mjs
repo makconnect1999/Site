@@ -62,7 +62,7 @@ function parsePost(file) {
 // ---------- modelos de página ----------
 const SITE_JSON = { '@type': 'Organization', '@id': `${SITE_URL}/#organizacao`, name: 'MAK CONNECT', url: `${SITE_URL}/`, logo: `${SITE_URL}/icon-512.png` };
 
-function head({ title, description, url, type = 'website', jsonld, extra = '' }) {
+function head({ title, description, url, type = 'website', jsonld, extra = '', image = `${SITE_URL}/og-image.png` }) {
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -79,13 +79,13 @@ function head({ title, description, url, type = 'website', jsonld, extra = '' })
   <meta property="og:url" content="${url}">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
-  <meta property="og:image" content="${SITE_URL}/og-image.png">
+  <meta property="og:image" content="${image}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
-  <meta name="twitter:image" content="${SITE_URL}/og-image.png">
+  <meta name="twitter:image" content="${image}">
 ${extra}  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
@@ -137,6 +137,7 @@ const footer = `
 
 const card = (p, h = 'h3') => `
       <article class="post-card">
+        <img class="post-thumb" src="/blog/capas/${p.slug}.jpg" alt="" width="1200" height="630" loading="lazy" decoding="async">
         <p class="post-cat"><a href="/blog/categoria/${p.catSlug}/">${esc(p.categoria)}</a></p>
         <${h}><a href="/blog/${p.slug}/">${esc(p.titulo)}</a></${h}>
         <p class="post-desc">${esc(p.descricao)}</p>
@@ -242,7 +243,7 @@ for (const p of posts) {
       authorLD,
       {
         '@type': 'BlogPosting', '@id': `${url}#materia`, mainEntityOfPage: url, url,
-        headline: p.titulo, description: p.descricao, image: `${SITE_URL}/og-image.png`,
+        headline: p.titulo, description: p.descricao, image: `${SITE_URL}/blog/capas/${p.slug}.jpg`,
         datePublished: isoDate(p.data), dateModified: isoDate(p.atualizado || p.data),
         author: { '@id': authorLD['@id'] }, publisher: { '@id': `${SITE_URL}/#organizacao` },
         articleSection: p.categoria, inLanguage: 'pt-BR', timeRequired: `PT${p.minutes}M`,
@@ -251,7 +252,7 @@ for (const p of posts) {
     ],
   };
   const extra = `  <meta property="article:published_time" content="${isoDate(p.data)}">\n  <meta property="article:author" content="${esc(AUTHOR.name)}">\n  <meta property="article:section" content="${esc(p.categoria)}">\n  <meta name="author" content="${esc(AUTHOR.name)}">\n`;
-  write(`blog/${p.slug}/index.html`, head({ title: `${p.titulo} | Blog MAK CONNECT`, description: p.descricao, url, type: 'article', jsonld: ld, extra }) + `
+  write(`blog/${p.slug}/index.html`, head({ title: `${p.titulo} | Blog MAK CONNECT`, description: p.descricao, url, type: 'article', jsonld: ld, extra, image: `${SITE_URL}/blog/capas/${p.slug}.jpg` }) + `
 <main id="conteudo" class="wrap blog">
   <nav class="crumbs" aria-label="Você está em"><a href="/">Início</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><a href="/blog/categoria/${p.catSlug}/">${esc(p.categoria)}</a></nav>
   <article class="post">
@@ -261,6 +262,7 @@ for (const p of posts) {
       <p class="post-lead">${esc(p.descricao)}</p>
       <p class="post-meta">Por <a href="/blog/autora/${AUTHOR.slug}/" rel="author">${esc(AUTHOR.name)}</a> · <time datetime="${p.data}">${fmtDate(p.data)}</time> · ${p.minutes} min de leitura</p>
     </header>
+    <figure class="post-cover"><img src="/blog/capas/${p.slug}.jpg" alt="" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
     <div class="post-body">
 ${p.html}
     </div>
