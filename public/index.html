@@ -216,7 +216,9 @@
       <div class="sp sp2"></div>
     </div>
   </div>
-  <form class="glass form" id="form" novalidate>
+  <form class="glass form" id="form" name="contato" method="POST" action="/obrigado.html" data-netlify="true" netlify-honeypot="empresa" novalidate>
+    <input type="hidden" name="form-name" value="contato">
+    <p class="hp" aria-hidden="true"><label>Não preencha este campo <input name="empresa" tabindex="-1" autocomplete="off"></label></p>
     <div class="field">
       <label for="f-nome">Nome</label>
       <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome completo" required>

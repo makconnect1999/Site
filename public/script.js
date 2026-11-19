@@ -102,7 +102,7 @@
   }
 
   // Formulário de contato
-  // Enquanto não houver um serviço de envio, a mensagem abre no app de e-mail.
+  // Envio pelo Netlify Forms; sem ele, a mensagem abre no app de e-mail.
   var CONTACT_EMAIL = 'contato.makconnect@gmail.com';
   var form = document.getElementById('form');
   var status = document.getElementById('form-status');
@@ -117,8 +117,22 @@
     });
     if (!ok) { status.textContent = 'Preencha nome, um e-mail válido e a mensagem.'; return; }
     var d = new FormData(form);
-    var body = 'Nome: ' + d.get('nome') + '\nE-mail: ' + d.get('email') + '\nPerfil: ' + d.get('perfil') + '\n\n' + d.get('mensagem');
-    window.location.href = 'mailto:' + CONTACT_EMAIL + '?subject=' + encodeURIComponent('Contato pelo site — ' + d.get('perfil')) + '&body=' + encodeURIComponent(body);
-    status.textContent = 'Abrimos seu app de e-mail com a mensagem pronta. Obrigada!';
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    status.textContent = 'Enviando…';
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(d).toString()
+    }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      form.reset();
+      status.textContent = 'Mensagem enviada! Retornaremos em breve.';
+    }).catch(function () {
+      // Sem o Netlify (ex.: GitHub Pages), abre o app de e-mail com a mensagem pronta.
+      var body = 'Nome: ' + d.get('nome') + '\nE-mail: ' + d.get('email') + '\nPerfil: ' + d.get('perfil') + '\n\n' + d.get('mensagem');
+      window.location.href = 'mailto:' + CONTACT_EMAIL + '?subject=' + encodeURIComponent('Contato pelo site — ' + d.get('perfil')) + '&body=' + encodeURIComponent(body);
+      status.textContent = 'Abrimos seu app de e-mail com a mensagem pronta.';
+    }).then(function () { btn.disabled = false; });
   });
 })();
