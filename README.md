@@ -13,3 +13,7 @@ Hero 3D · Sobre (missão e visão) · Influenciadoras / Marcas · Método MAK �
 - WhatsApp: (11) 99705-3316
 
 O formulário de contato abre o app de e-mail do visitante com a mensagem pronta. Para receber mensagens direto, ligue-o a um serviço como Formspree ou Netlify Forms.
+
+## Publicação
+- **Provisória — GitHub Pages:** branch `gh-pages` → https://makconnect1999.github.io/Site/
+- **Definitiva — Netlify:** importe o repositório no Netlify. O `netlify.toml` já está configurado (sem build, publica a raiz). Para o formulário, basta adicionar Netlify Forms.
