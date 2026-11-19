@@ -1,6 +1,16 @@
-# Configuração do Netlify: site estático, sem etapa de build.
+# Configuração do Netlify.
+# O build monta o site em dist/ a partir de public/ e das matérias em content/blog/.
+# Para trocar o endereço do site (ex.: domínio próprio), mude SITE_URL abaixo.
 [build]
-  publish = "public"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  SITE_URL = "https://makconnect.netlify.app"
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
 
 [[headers]]
   for = "/*"
@@ -29,3 +39,8 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/blog/feed.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=utf-8"
