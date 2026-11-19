@@ -14,7 +14,7 @@ Arte-fonte: `panorama.html`. Imagens em `public/social/instagram/2026-11-abertur
 | 4 | Ele é invisível. Até alguém cuidar dele. |
 | 5 | Sejam bem-vindos à MAK CONNECT. Onde marcas encontram influência. |
 
-Status: versão 3 (sem numeração de slides), aguardando publicação. A versão 1 foi publicada em 19/11 e apagada para correções.
+Status: versão 3 publicada em 19/11/2026 (media id 18118050803042243). A versão 1 foi publicada antes e apagada para correções.
 
 ## Legenda
 
