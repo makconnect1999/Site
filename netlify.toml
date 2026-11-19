@@ -6,7 +6,7 @@
   publish = "dist"
 
 [build.environment]
-  SITE_URL = "https://makconnect.netlify.app"
+  SITE_URL = "https://makconnect.com.br"
   NODE_VERSION = "22"
 
 [functions]
