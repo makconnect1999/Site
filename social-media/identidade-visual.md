@@ -25,6 +25,7 @@ Os posts alternam entre fundo preto, off-white e champanhe para dar ritmo ao fee
 
 ## Tom de voz
 
-Profissional, mas descolado. Frases curtas, um gancho na primeira linha da legenda,
-um dado com fonte, uma leitura sobre o dado e um convite para salvar ou chamar no direct.
-Sem emojis. Nenhum número sem fonte.
+Formal e leve, como uma agência escreve: primeira pessoa do plural ("nós", nunca "a gente"),
+sem gírias nem abreviações, frases curtas e claras. Na legenda: uma frase de abertura forte,
+um dado com fonte, uma leitura sobre o dado e um convite discreto (salvar ou falar pelo direct).
+Sem emojis. Nenhum número sem fonte. Assinatura: "Onde marcas encontram influência."

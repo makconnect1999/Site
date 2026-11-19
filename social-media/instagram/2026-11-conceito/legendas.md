@@ -7,16 +7,16 @@ dourado champanhe, luz de estúdio. Imagens 3D geradas a partir de `social-media
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-conceito/conexao.jpg`
 - Ideia: dois anéis dourados entrelaçados. Influenciadora e marca, unidas com solidez.
-- Status: aguardando aprovação
+- Status: agendado
 
 ```
 Duas trajetórias. Uma conexão.
 
-Toda parceria que vale a pena começa assim: dois lados que se encaixam de verdade.
+Toda parceria relevante começa pelo encaixe certo entre quem cria e quem acredita.
 
-MAK CONNECT · Assessoria de influenciadoras
+MAK CONNECT. Onde marcas encontram influência.
 
-#makconnect #conexao #marketingdeinfluencia
+#makconnect #marketingdeinfluencia #influenciadoras
 ```
 
 ## Conceito 02 — Solidez
@@ -24,14 +24,14 @@ MAK CONNECT · Assessoria de influenciadoras
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-conceito/solidez.jpg`
 - Ideia: quatro camadas sobrepostas, a do topo em dourado. O Método MAK: diagnóstico,
   conexão, execução e resultado. Confiança construída em camadas.
-- Status: aguardando aprovação
+- Status: agendado
 
 ```
 Credibilidade se constrói em camadas.
 
-Diagnóstico. Conexão. Execução. Resultado.
+Diagnóstico, conexão, execução e resultado: é assim que conduzimos cada parceria.
 
-MAK CONNECT · Assessoria de influenciadoras
+MAK CONNECT. Onde marcas encontram influência.
 
-#makconnect #credibilidade #marketingdeinfluencia
+#makconnect #marketingdeinfluencia #influenciadoras
 ```

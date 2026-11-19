@@ -8,157 +8,154 @@ Status possíveis: rascunho · aprovado · publicado.
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-01.jpg`
 - Fonte dos dados: Relatório sobre a Creator Economy no Brasil, via Mundo do Marketing (2026)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-Influência não é mais aposta. É mercado, e dos grandes.
+A influência deixou de ser tendência e se consolidou como mercado.
 
-A creator economy brasileira movimentou US$ 5,47 bilhões em 2025 e deve chegar a US$ 33,5 bilhões até 2034. São cerca de 22% de crescimento ao ano.
+A creator economy brasileira movimentou US$ 5,47 bilhões em 2025 e tem projeção de alcançar US$ 33,5 bilhões até 2034, um crescimento de aproximadamente 22% ao ano.
 
-Para quem cria, isso é oportunidade de carreira. Para quem investe, é um canal que exige estratégia, não improviso.
+Para as criadoras, trata-se de uma oportunidade real de carreira. Para as marcas, de um canal que exige estratégia, e não improviso.
 
-Salve este post e acompanhe a série sobre o mercado de influência.
+Salve esta publicação e acompanhe nossa série sobre o mercado de influência.
 
-#creatoreconomy #marketingdeinfluencia #influenciadoras #marcas #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 02 — Top 3 do mundo
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-02.jpg`
 - Fonte dos dados: Influencer Marketing Hub, via Nosso Meio (2025); Influency.me (2026)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-Top 3 do mundo.
+O Brasil está entre os três maiores mercados de marketing de influência do mundo, com mais de R$ 20 bilhões movimentados em 2025.
 
-O Brasil está entre os três maiores mercados de marketing de influência do planeta. O setor movimentou mais de R$ 20 bilhões no país em 2025.
+O número de profissionais acompanha esse ritmo: já são 2,1 milhões de influenciadores ativos, 100 mil deles somente no último ano.
 
-E o time só cresce: já são 2,1 milhões de influenciadores ativos, com 100 mil novos só no último ano.
+Com mais criadores em atividade, a concorrência também cresce. Destacam-se aqueles que atuam com estratégia.
 
-Mais gente em campo significa mais concorrência. Quem se destaca é quem joga com estratégia.
-
-#marketingdeinfluencia #creatoreconomy #influenciadoradigital #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 03 — 10% → 62%
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-03.jpg`
 - Fonte dos dados: CreatorIQ, State of Creator Compensation (2025)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-Um dado que pouca gente comenta: em 2025, 10% dos criadores ficaram com 62% de todos os pagamentos do setor. Em 2023, eram 53%. (CreatorIQ)
+Em 2025, 10% dos criadores concentraram 62% de todos os pagamentos do setor. Em 2023, essa participação era de 53% (CreatorIQ).
 
-Talento é o ponto de partida. O que separa quem cresce de quem fica estagnado é estrutura: posicionamento, negociação e gestão.
+O talento é o ponto de partida. O que diferencia quem cresce é a estrutura: posicionamento, negociação e gestão.
 
-Não por acaso, 62% dos criadores já trabalham com apoio profissional.
+Não por acaso, 62% dos criadores já contam com apoio profissional.
 
-Sua carreira merece ser tratada como negócio.
+Na MAK CONNECT, acreditamos que toda carreira merece ser conduzida como um negócio.
 
-#influenciadoras #gestaodecarreira #creatoreconomy #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 04 — Budget +57%
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-04.jpg`
 - Fonte dos dados: HeartBit, via Times Brasil (2026); Kantar, Marketing Trends 2026
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-Para onde vai o budget? Para os criadores.
+Os investimentos das marcas em influência seguem em alta.
 
-+57% nos orçamentos das marcas destinados ao marketing de influência em 2026 (HeartBit).
-61% dos profissionais de marketing planejam investir mais em creators este ano (Kantar).
+Os orçamentos destinados ao marketing de influência cresceram 57% em 2026 (HeartBit), e 61% dos profissionais de marketing planejam ampliar o investimento em criadores neste ano (Kantar).
 
-Mais verba também traz mais cobrança por resultado. A hora é de escolher bem: a criadora certa, para o público certo, com a gestão certa.
+Mais investimento também significa maior exigência por resultado. Por isso, a escolha precisa ser criteriosa: a criadora certa, para o público certo, com a gestão adequada.
 
-#marketingdeinfluencia #marcas #tendencias2026 #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 05 — 7 em cada 10
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-05.jpg`
 - Fonte dos dados: Opinion Box e Influency.me (2025)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-7 em cada 10.
+Sete em cada dez consumidores brasileiros já compraram algo por indicação de um influenciador (Opinion Box e Influency.me).
 
-69% dos consumidores brasileiros já compraram algo por indicação de um influenciador. E as marcas perceberam: 64% investiram no canal em 2024, contra 54% no ano anterior. (Opinion Box e Influency.me)
+As marcas acompanharam esse movimento: 64% investiram no canal em 2024, ante 54% no ano anterior.
 
-O segredo não é volume, é confiança. Ela aparece quando marca, criadora e público estão realmente alinhados.
+O fator decisivo não é o volume, mas a confiança, que surge quando marca, criadora e público estão verdadeiramente alinhados.
 
-#marketingdeinfluencia #consumo #confianca #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 06 — O ponto cego 82%
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-06.jpg`
 - Fonte dos dados: Relatório citado por Mundo do Marketing (2026)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-O ponto cego da influência: 82% dos líderes de marketing ainda têm dificuldade em medir o impacto real das campanhas.
+A mensuração ainda é o principal desafio do setor: 82% dos líderes de marketing relatam dificuldade em medir o impacto real das campanhas de influência.
 
-No Método MAK, a mensuração começa antes do primeiro post:
+No Método MAK, a mensuração começa antes da primeira publicação:
 01 Diagnóstico: criadora, público e objetivos
 02 Conexão: compatibilidade real
 03 Execução: briefing, prazos e contrato
 04 Resultado: avaliação conjunta e transparente
 
-O que é medido, melhora.
+O que é medido pode ser aprimorado.
 
-#marketingdeinfluencia #resultados #gestaodecampanhas #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 07 — Do feed ao carrinho
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-07.jpg`
 - Fonte dos dados: Mundo do Marketing (2026); ABC da Comunicação (2026)
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
-Do feed ao carrinho.
+Da recomendação à compra.
 
-O TikTok Shop cresceu 26 vezes em receita nos primeiros meses no Brasil. A influência virou canal direto de vendas.
+O TikTok Shop multiplicou sua receita por 26 nos primeiros meses de operação no Brasil, consolidando a influência como canal direto de vendas.
 
-E tem mais: 1 em cada 6 criadores vive fora dos grandes centros. O talento está em todo lugar e as marcas que souberem encontrá-lo saem na frente.
+Além disso, um em cada seis criadores vive fora dos grandes centros. Há talento em todas as regiões, e as marcas que souberem identificá-lo sairão na frente.
 
-#socialcommerce #marketingdeinfluencia #creatoreconomy #makconnect
+#marketingdeinfluencia #creatoreconomy #influenciadoras #marcas #makconnect
 ```
 
 ## Post 08 — Dois lados, uma conexão
 
 - Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-08.jpg`
 - Fonte dos dados: Conteúdo institucional MAK CONNECT
-- Status: aprovado, aguardando publicação
+- Status: agendado
 
 Legenda:
 
 ```
 Dois lados. Uma conexão.
 
-Na MAK CONNECT, a influenciadora está no centro: carreira tratada como negócio, marcas compatíveis, contratos justos e zero exclusividade.
+Na MAK CONNECT, a influenciadora está no centro: carreira conduzida como negócio, marcas compatíveis, contratos justos e sem exclusividade.
 
-Para as marcas, curadoria precisa, briefing alinhado, prazos cumpridos e um único ponto de contato do início ao fim.
+Às marcas, oferecemos curadoria criteriosa, briefing alinhado, prazos cumpridos e um único ponto de contato do início ao fim.
 
-Somos uma assessoria boutique por escolha. Carteira enxuta, qualidade em vez de volume.
+Somos uma assessoria boutique por escolha: carteira enxuta, gestão dedicada e qualidade em vez de volume.
 
-Influenciadora ou marca? Chame no direct.
+Influenciadoras e marcas: fale conosco pelo direct.
 
 #makconnect #assessoriadeinfluenciadoras #marketingdeinfluencia #marcas
 ```

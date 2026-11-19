@@ -47,6 +47,24 @@ Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `n
 
 | Pasta | Tema | Posts | Status |
 |---|---|---|---|
-| `2026-11-conceito` | 2 posts conceituais só com imagem (luxo, confiança) | 2 | Aguardando aprovação |
+| `2026-11-conceito` | 2 posts conceituais só com imagem (luxo, confiança) | 2 | Agendado |
 | `2026-11-abertura` | Post de abertura (carrossel panorâmico de 5 slides) | 1 | Publicado em 19/11/2026 |
-| `2026-11-mercado-influencia` | Dados do mercado de influência | 8 | Aguardando publicação |
+| `2026-11-mercado-influencia` | Dados do mercado de influência | 8 | Agendado |
+
+## Calendário de publicação
+
+Agendado para publicação automática pelo Windsor.ai, às 18h40 (horário de Brasília).
+
+| Data | Post |
+|---|---|
+| 19/11 (qui) | Carrossel de abertura (publicado) |
+| 20/11 (sex) | conexao |
+| 21/11 (sáb) | solidez |
+| 24/11 (ter) | post-01 |
+| 26/11 (qui) | post-02 |
+| 01/12 (ter) | post-03 |
+| 03/12 (qui) | post-04 |
+| 08/12 (ter) | post-05 |
+| 10/12 (qui) | post-06 |
+| 15/12 (ter) | post-07 |
+| 17/12 (qui) | post-08 |

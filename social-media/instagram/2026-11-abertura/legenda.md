@@ -16,14 +16,16 @@ Arte-fonte: `panorama.html`. Imagens em `public/social/instagram/2026-11-abertur
 
 Status: publicado em 19/11/2026 (media id 18032381579916110).
 
-## Legenda
+## Legenda revisada (tom formal)
+
+A legenda publicada em 19/11 era mais informal. Esta é a versão revisada, para editar no app do Instagram.
 
 ```
-Tem algo que nenhum publi mostra.
+Há algo que nenhuma publicação patrocinada revela.
 
-Não aparece no feed. Não entra no briefing. Ninguém posta. Mas é o que segura toda parceria que dá certo entre quem cria e quem acredita.
+Não aparece no feed, não consta no briefing e não é publicado. Ainda assim, é o que sustenta toda parceria bem-sucedida entre quem cria e quem acredita.
 
-Prazer, MAK CONNECT.
+Muito prazer, somos a MAK CONNECT.
 
 Onde marcas encontram influência.
 
