@@ -51,3 +51,10 @@
   [headers.values]
     X-Robots-Tag = "noindex"
     Cache-Control = "public, max-age=604800"
+
+# Endereço antigo leva ao domínio oficial (evita conteúdo duplicado no Google).
+[[redirects]]
+  from = "https://makconnect.netlify.app/*"
+  to = "https://makconnect.com.br/:splat"
+  status = 301
+  force = true
