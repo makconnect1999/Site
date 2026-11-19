@@ -66,3 +66,10 @@
 .post-body th{color:var(--ink);font-weight:600;border-bottom-color:rgba(245,243,239,.3)}
 .post-body li:has(> .check){list-style:none;margin-left:-1.3em}
 .post-body .check{display:inline-block;width:18px;height:18px;margin-right:12px;vertical-align:-3px;border:1.5px solid var(--accent);border-radius:5px}
+
+/* Capas das matérias */
+.post-thumb{display:block;max-width:none;width:calc(100% + 56px);margin:-28px -28px 4px;aspect-ratio:1200/630;height:auto;object-fit:cover;border-radius:22px 22px 0 0;background:#161618}
+.post-card{overflow:hidden}
+.post-cover{margin:36px 0 8px}
+.post-cover img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:22px;background:#161618;border:1px solid rgba(245,243,239,.12)}
+@media (max-width:640px){.post-thumb{width:calc(100% + 48px);margin:-24px -24px 4px}}
