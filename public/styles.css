@@ -1,3 +1,6 @@
+/* Fontes de reserva com as mesmas medidas das fontes da marca: evitam "pulos" no layout enquanto as fontes carregam. */
+@font-face{font-family:"Manrope Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:104.7%;ascent-override:101.8%;descent-override:28.7%;line-gap-override:0%}
+@font-face{font-family:"Instrument Serif Fallback";src:local("Times New Roman"),local("Liberation Serif"),local("Times");size-adjust:87.3%}
 :root{
   --bg:#0B0B0C;
   --bg-2:#141416;
@@ -8,8 +11,8 @@
   --accent-dark:#6B5A42;
   --line:rgba(245,243,239,.12);
   --line-2:rgba(245,243,239,.22);
-  --sans:'Manrope', system-ui, -apple-system, Segoe UI, sans-serif;
-  --serif:'Instrument Serif', Georgia, serif;
+  --sans:'Manrope', 'Manrope Fallback', system-ui, -apple-system, Segoe UI, sans-serif;
+  --serif:'Instrument Serif', 'Instrument Serif Fallback', Georgia, serif;
 }
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -244,3 +247,17 @@ h2{font-size:clamp(34px, 4.2vw, 56px);line-height:1.08;font-weight:500;letter-sp
 .foot-links a{color:#C9C5BE;text-decoration:none}
 .foot-links a:hover{color:var(--ink)}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* Perguntas frequentes */
+.faq{display:flex;flex-direction:column;gap:40px}
+.faq-list{display:flex;flex-direction:column}
+.faq-item{border-top:1px solid var(--line)}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:24px 0;min-height:44px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font-family:var(--serif);font-size:32px;line-height:1;color:var(--accent);transition:transform .3s}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item h3{margin:0;font-size:20px;font-weight:500;line-height:1.35}
+.faq-item p{margin:0 0 24px;max-width:760px;font-size:17px;line-height:1.65;color:var(--muted)}
+.foot-addr{font-style:normal}
+.face.back .eyebrow{color:#0B0B0C}
