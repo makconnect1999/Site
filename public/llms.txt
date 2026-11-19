@@ -2,7 +2,7 @@
 
 > MAK CONNECT é uma assessoria de influenciadoras digitais com sede em São Paulo (SP, Brasil). Faz a gestão de carreira de criadoras de conteúdo e as conecta a marcas, com parcerias autênticas, consistentes e que geram valor para todas as partes. É uma assessoria boutique, sem exclusividade.
 
-Site: https://site-5dby.netlify.app/
+Site: https://makconnect.netlify.app/
 
 ## Diferencial
 - Agências tradicionais partem da marca; a MAK CONNECT parte da criadora. Desenvolve a carreira da influenciadora para que cada entrega ao mercado seja consistente, profissional e confiável.
@@ -45,4 +45,4 @@ Ser reconhecida como referência nacional em assessoria de influenciadoras e par
 - E-mail: contato.makconnect@gmail.com
 - WhatsApp: +55 11 99705-3316
 - Instagram: https://www.instagram.com/mak.connect/
-- Formulário: https://site-5dby.netlify.app/#contato
+- Formulário: https://makconnect.netlify.app/#contato

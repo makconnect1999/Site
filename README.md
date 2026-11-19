@@ -21,4 +21,4 @@ Hero 3D · Sobre (missão e visão) · Influenciadoras / Marcas · Método MAK �
 - Metatags completas (título, descrição, canonical, Open Graph, Twitter) e imagem de prévia `og-image.png`.
 - Dados estruturados JSON-LD: Organization, ProfessionalService, WebSite, WebPage e FAQPage.
 - `robots.txt` (libera buscadores e robôs de IA), `sitemap.xml` e `llms.txt` (resumo da empresa para IAs).
-- Ao trocar o endereço do site, substitua `https://site-5dby.netlify.app` em `public/index.html`, `robots.txt`, `sitemap.xml` e `llms.txt`.
+- Ao trocar o endereço do site, substitua `https://makconnect.netlify.app` em `public/index.html`, `robots.txt`, `sitemap.xml` e `llms.txt`.

@@ -40,4 +40,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://site-5dby.netlify.app/sitemap.xml
+Sitemap: https://makconnect.netlify.app/sitemap.xml
