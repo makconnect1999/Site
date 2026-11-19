@@ -21,7 +21,7 @@ Não aparece no feed. Não entra no briefing. Ninguém posta. Mas é o que segur
 
 Prazer, MAK CONNECT.
 
-O resto, a gente conta em breve.
+Em breve, os próximos capítulos.
 
 #makconnect #marketingdeinfluencia #influenciadoras #creatoreconomy
 ```
