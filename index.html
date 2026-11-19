@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAK CONNECT — Assessoria de influenciadoras</title>
+  <meta name="description" content="Assessoria e gestão de carreira para influenciadoras digitais, com conexões qualificadas e parcerias autênticas entre criadoras e marcas. São Paulo, Brasil.">
+  <meta name="theme-color" content="#0B0B0C">
+  <meta property="og:title" content="MAK CONNECT — Conexões que constroem carreiras e fortalecem marcas">
+  <meta property="og:description" content="Assessoria e gestão de carreira para influenciadoras digitais. Boutique, sem exclusividade, com gestão próxima e dedicada.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="nav wrap">
+  <a href="#topo" class="logo" aria-label="MAK CONNECT — início">
+    <span class="logo-mak">MAK</span>
+    <span class="logo-connect">CONNECT</span>
+  </a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+    <span></span><span></span>
+  </button>
+  <nav id="menu" class="menu" aria-label="Principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#dois-lados" data-side="inf">Influenciadoras</a>
+    <a href="#dois-lados" data-side="marca">Marcas</a>
+    <a href="#metodo">Método</a>
+    <a href="#valores">Valores</a>
+    <a href="#contato" class="btn btn-outline">Fale com a MAK</a>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section id="topo" class="hero wrap">
+  <div class="hero-text">
+    <p class="eyebrow">Assessoria de influenciadoras · São Paulo</p>
+    <h1>Conexões que constroem <em>carreiras</em> e fortalecem <em>marcas</em>.</h1>
+    <p class="lead">Assessoria e gestão de carreira para influenciadoras digitais, com conexões qualificadas e parcerias autênticas, consistentes e que geram valor para todas as partes.</p>
+    <div class="actions">
+      <a href="#dois-lados" class="btn btn-solid" data-side="inf">Sou influenciadora</a>
+      <a href="#dois-lados" class="btn btn-ghost" data-side="marca">Sou marca</a>
+    </div>
+  </div>
+
+  <div class="stage" id="stage" aria-hidden="true">
+    <div class="scene" id="scene">
+      <div class="orbit o1"><div class="ring"><span class="dot accent"></span></div></div>
+      <div class="orbit o2"><div class="ring rev"><span class="dot light"></span></div></div>
+      <div class="orbit o3"><div class="ring dashed"><span class="dot accent"></span></div></div>
+
+      <div class="mark-wrap">
+        <div class="mark swing" id="mark">
+          <!-- camadas de profundidade geradas por script.js -->
+          <div class="mark-top">MAK</div>
+          <div class="mark-sub">CONNECT</div>
+        </div>
+      </div>
+
+      <div class="chip-pos c1"><div class="chip floaty"><span class="dot-s accent"></span>Influenciadora</div></div>
+      <div class="chip-pos c2"><div class="chip floaty d2"><span class="dot-s light"></span>Marca</div></div>
+      <div class="chip-pos c3"><div class="chip chip-sq floaty d3">Parceria autêntica</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-band" aria-hidden="true">
+  <div class="marquee" id="marquee"></div>
+</div>
+
+<!-- SOBRE -->
+<section id="sobre" class="wrap section">
+  <div class="split-head">
+    <h2>A influenciadora no centro. A marca com <em>total confiança</em>.</h2>
+    <p class="muted">Enquanto agências tradicionais partem da marca, a MAK CONNECT parte da criadora: desenvolvemos sua carreira para que cada entrega ao mercado seja consistente, profissional e confiável.</p>
+  </div>
+  <div class="mv">
+    <article class="glass mv-card tilt-l reveal">
+      <p class="eyebrow">Missão</p>
+      <p>Prestar assessoria e gestão de carreira a influenciadoras digitais de forma estratégica e personalizada, promovendo conexões qualificadas com marcas e construindo parcerias autênticas, consistentes e que geram valor para todas as partes.</p>
+    </article>
+    <article class="glass mv-card tilt-r reveal">
+      <p class="eyebrow">Visão</p>
+      <p>Ser reconhecida como referência nacional em assessoria de influenciadoras e parceira de confiança de criadoras de conteúdo e de marcas, pela excelência na gestão e pela assertividade das parcerias que intermedia.</p>
+    </article>
+  </div>
+</section>
+
+<!-- DOIS LADOS -->
+<section id="dois-lados" class="light-band">
+  <div class="wrap two">
+    <div class="two-text">
+      <p class="eyebrow dark">Dois lados, uma conexão</p>
+      <h2>Como a MAK CONNECT trabalha <em class="plain">com você</em>.</h2>
+      <p class="muted-dark">Escolha seu perfil e gire o cartão para conhecer a assessoria.</p>
+      <div class="toggle" role="group" aria-label="Escolha seu perfil">
+        <button type="button" id="btn-inf" aria-pressed="true">Sou influenciadora</button>
+        <button type="button" id="btn-marca" aria-pressed="false">Sou marca</button>
+      </div>
+    </div>
+
+    <div class="card3d-wrap">
+      <div class="card3d" id="card3d">
+        <div class="face front" id="face-inf">
+          <p class="eyebrow">Para influenciadoras</p>
+          <p class="face-title">Sua carreira tratada como negócio.</p>
+          <ul class="feat">
+            <li><strong>Gestão de carreira</strong><span>Posicionamento e planejamento estratégico.</span></li>
+            <li><strong>Captação de marcas</strong><span>Parcerias compatíveis com seu público.</span></li>
+            <li><strong>Negociação e contratos</strong><span>Condições justas e transparentes.</span></li>
+            <li><strong>Sem exclusividade</strong><span>Liberdade com acompanhamento próximo.</span></li>
+          </ul>
+        </div>
+        <div class="face back" id="face-marca">
+          <p class="eyebrow dark">Para marcas</p>
+          <p class="face-title">A criadora certa, com gestão de ponta a ponta.</p>
+          <ul class="feat">
+            <li><strong>Curadoria de criadoras</strong><span>Compatibilidade entre marca, criadora e público.</span></li>
+            <li><strong>Briefing e alinhamento</strong><span>Objetivos claros antes da primeira entrega.</span></li>
+            <li><strong>Gestão de campanhas</strong><span>Prazos cumpridos e acompanhamento integral.</span></li>
+            <li><strong>Um único ponto de contato</strong><span>Comunicação íntegra e ágil.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section id="metodo" class="wrap section method">
+  <div class="method-text">
+    <p class="eyebrow">Método MAK</p>
+    <h2>Cada parceria construída em <em>camadas</em>.</h2>
+    <ol class="steps">
+      <li><span class="n">01</span><span><strong>Diagnóstico</strong><span>Entendemos a criadora, seu público e seus objetivos — ou a marca e sua campanha.</span></span></li>
+      <li><span class="n">02</span><span><strong>Conexão</strong><span>Cruzamos marca, criadora e público para garantir compatibilidade real.</span></span></li>
+      <li><span class="n">03</span><span><strong>Execução</strong><span>Contrato claro, briefing alinhado, prazos cumpridos e acompanhamento integral.</span></span></li>
+      <li><span class="n">04</span><span><strong>Resultado</strong><span>Avaliação conjunta e relacionamento contínuo, construído com consistência.</span></span></li>
+    </ol>
+  </div>
+  <div class="stack-stage" aria-hidden="true">
+    <div class="stack">
+      <div class="layer" style="--z:0"><div class="glass slab bob">01 · Diagnóstico</div></div>
+      <div class="layer" style="--z:64px"><div class="glass slab bob" style="animation-delay:-.6s">02 · Conexão</div></div>
+      <div class="layer" style="--z:128px"><div class="glass slab bob" style="animation-delay:-1.2s">03 · Execução</div></div>
+      <div class="layer" style="--z:192px"><div class="glass slab slab-top bob" style="animation-delay:-1.8s">04 · Resultado</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VALORES -->
+<section id="valores" class="section bordered">
+  <div class="wrap">
+    <div class="split-head">
+      <h2>Nossos <em>valores</em></h2>
+      <p class="muted small">Passe o cursor ou toque para girar cada cartão.</p>
+    </div>
+    <div class="values">
+      <article class="flip" tabindex="0" aria-label="Valorização da criadora: O desenvolvimento profissional das influenciadoras é a base de entregas de alta qualidade ao mercado.">
+        <div class="flip-in"><div class="side glass"><span class="vn">01</span><span class="vt">Valorização da criadora</span></div>
+        <div class="side side-back"><span class="vk">Valorização da criadora</span><span class="vd">O desenvolvimento profissional das influenciadoras é a base de entregas de alta qualidade ao mercado.</span></div></div>
+      </article>
+      <article class="flip" tabindex="0" aria-label="Alinhamento estratégico: Parcerias estruturadas a partir da compatibilidade entre marca, criadora e público, assegurando autenticidade e retorno.">
+        <div class="flip-in"><div class="side glass"><span class="vn">02</span><span class="vt">Alinhamento estratégico</span></div>
+        <div class="side side-back"><span class="vk">Alinhamento estratégico</span><span class="vd">Parcerias estruturadas a partir da compatibilidade entre marca, criadora e público, assegurando autenticidade e retorno.</span></div></div>
+      </article>
+      <article class="flip" tabindex="0" aria-label="Transparência: Contratos claros, condições justas e comunicação íntegra com todas as partes.">
+        <div class="flip-in"><div class="side glass"><span class="vn">03</span><span class="vt">Transparência</span></div>
+        <div class="side side-back"><span class="vk">Transparência</span><span class="vd">Contratos claros, condições justas e comunicação íntegra com todas as partes.</span></div></div>
+      </article>
+      <article class="flip" tabindex="0" aria-label="Excelência na execução: Cumprimento rigoroso de prazos e acompanhamento integral de cada campanha.">
+        <div class="flip-in"><div class="side glass"><span class="vn">04</span><span class="vt">Excelência na execução</span></div>
+        <div class="side side-back"><span class="vk">Excelência na execução</span><span class="vd">Cumprimento rigoroso de prazos e acompanhamento integral de cada campanha.</span></div></div>
+      </article>
+      <article class="flip" tabindex="0" aria-label="Atendimento personalizado: Carteira enxuta, gestão próxima e dedicada: qualidade em vez de volume.">
+        <div class="flip-in"><div class="side glass"><span class="vn">05</span><span class="vt">Atendimento personalizado</span></div>
+        <div class="side side-back"><span class="vk">Atendimento personalizado</span><span class="vd">Carteira enxuta, gestão próxima e dedicada: qualidade em vez de volume.</span></div></div>
+      </article>
+      <article class="flip" tabindex="0" aria-label="Credibilidade: Reputação construída com ética, consistência e resultados sustentáveis.">
+        <div class="flip-in"><div class="side glass"><span class="vn">06</span><span class="vt">Credibilidade</span></div>
+        <div class="side side-back"><span class="vk">Credibilidade</span><span class="vd">Reputação construída com ética, consistência e resultados sustentáveis.</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAL -->
+<section class="section bordered">
+  <div class="wrap boutique">
+    <p class="eyebrow">Boutique por escolha</p>
+    <p class="big">Carteira enxuta, gestão próxima e dedicada. <em>Qualidade em vez de volume.</em></p>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="wrap section contact">
+  <div class="contact-text">
+    <h2>Vamos construir a próxima <em>conexão</em>?</h2>
+    <p class="muted">Influenciadoras e marcas: conte um pouco sobre você e retornaremos com uma proposta personalizada.</p>
+    <div class="spinner" aria-hidden="true">
+      <div class="sp sp1"><span class="dot accent"></span></div>
+      <div class="sp sp2"></div>
+    </div>
+  </div>
+  <form class="glass form" id="form" novalidate>
+    <div class="field">
+      <label for="f-nome">Nome</label>
+      <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome completo" required>
+    </div>
+    <div class="field">
+      <label for="f-email">E-mail</label>
+      <input id="f-email" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required>
+    </div>
+    <div class="field">
+      <label for="f-perfil">Perfil</label>
+      <select id="f-perfil" name="perfil">
+        <option>Sou influenciadora</option>
+        <option>Sou marca</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="f-msg">Mensagem</label>
+      <textarea id="f-msg" name="mensagem" rows="4" placeholder="Conte sobre seu perfil ou campanha" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-solid btn-block">Enviar mensagem</button>
+    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div class="logo logo-sm"><span class="logo-mak">MAK</span><span class="logo-connect">CONNECT</span></div>
+    <span>São Paulo · Brasil</span>
+    <span>[SEU E-MAIL] · [@SEU INSTAGRAM]</span>
+    <span>© <span id="ano">2026</span> MAK CONNECT</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
