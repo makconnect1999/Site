@@ -48,5 +48,5 @@ Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `n
 | Pasta | Tema | Posts | Status |
 |---|---|---|---|
 | `2026-11-conceito` | 2 posts conceituais só com imagem (luxo, confiança) | 2 | Aguardando aprovação |
-| `2026-11-abertura` | Post de abertura (carrossel de 4 slides) | 1 | Aguardando publicação |
+| `2026-11-abertura` | Post de abertura (carrossel panorâmico de 5 slides) | 1 | Publicado em 19/11/2026 |
 | `2026-11-mercado-influencia` | Dados do mercado de influência | 8 | Aguardando publicação |
