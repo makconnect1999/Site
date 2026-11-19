@@ -1,0 +1,51 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0B0B0C}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head><body>
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+const W=1080,H=1350, mode=new URLSearchParams(location.search).get('s');
+const r=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+r.setPixelRatio(2); r.setSize(W,H);
+r.toneMapping=THREE.ACESFilmicToneMapping; r.toneMappingExposure=0.9;
+r.shadowMap.enabled=true; r.shadowMap.type=THREE.VSMShadowMap;
+document.body.appendChild(r.domElement);
+const sc=new THREE.Scene(); sc.background=new THREE.Color('#0B0B0C');
+sc.fog=new THREE.Fog('#0B0B0C',8,16);
+const pm=new THREE.PMREMGenerator(r);
+sc.environment=pm.fromScene(new RoomEnvironment(),0.04).texture;
+sc.environmentIntensity=0.95;
+const cam=new THREE.PerspectiveCamera(30,W/H,0.1,100);
+const gold=new THREE.MeshPhysicalMaterial({color:'#E8CC98',metalness:1,roughness:0.1,clearcoat:0.6,clearcoatRoughness:0.08,envMapIntensity:1.5});
+const ground=new THREE.Mesh(new THREE.PlaneGeometry(60,60),new THREE.ShadowMaterial({color:'#000000',opacity:0.55}));
+ground.rotation.x=-Math.PI/2; ground.receiveShadow=true; sc.add(ground);
+const key=new THREE.DirectionalLight('#FFE9C7',2.6); key.position.set(-4,8,5); key.castShadow=true;
+key.shadow.mapSize.set(4096,4096); key.shadow.radius=18; key.shadow.blurSamples=32;
+Object.assign(key.shadow.camera,{left:-5,right:5,top:5,bottom:-5,near:1,far:30});
+sc.add(key);
+const rim=new THREE.DirectionalLight('#FFFFFF',1.4); rim.position.set(5,3,-6); sc.add(rim);
+const spot=new THREE.SpotLight('#FFF3DE',28,30,0.32,0.9,1.2); spot.position.set(0,9,2); spot.target.position.set(0,0,0); sc.add(spot,spot.target);
+if(mode==='rings'){
+  const g=new THREE.Group();
+  const geo=new THREE.TorusGeometry(1,0.07,96,320);
+  const a=new THREE.Mesh(geo,gold); a.position.x=-0.5;
+  const b=new THREE.Mesh(geo,gold); b.position.x=0.5; b.rotation.x=Math.PI/2;
+  for(const m of [a,b]){m.castShadow=true;g.add(m);}
+  g.rotation.set(0.12,-0.6,0.2); g.position.y=1.5; g.scale.setScalar(0.9); sc.add(g);
+  cam.position.set(0,2.4,9.6); cam.lookAt(0,1.3,0);
+}else{
+  const g=new THREE.Group();
+  const black=new THREE.MeshPhysicalMaterial({color:'#141415',metalness:0.25,roughness:0.22,clearcoat:1,clearcoatRoughness:0.06});
+  const geo=new RoundedBoxGeometry(2.3,0.26,2.3,6,0.05);
+  for(let i=0;i<4;i++){
+    const m=new THREE.Mesh(geo,i===3?gold:black);
+    m.position.y=0.13+i*0.36; m.castShadow=true; m.receiveShadow=true; g.add(m);
+  }
+  g.rotation.y=-0.62; g.position.y=0.05; sc.add(g);
+  cam.position.set(4.6,5.0,9.6); cam.lookAt(0,0.5,0);
+}
+r.render(sc,cam); r.render(sc,cam);
+window.done=true;
+</script></body></html>

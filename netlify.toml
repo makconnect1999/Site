@@ -44,3 +44,10 @@
   for = "/blog/feed.xml"
   [headers.values]
     Content-Type = "application/rss+xml; charset=utf-8"
+
+# Imagens das redes sociais: endereço público para o Instagram, fora dos buscadores.
+[[headers]]
+  for = "/social/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+    Cache-Control = "public, max-age=604800"
