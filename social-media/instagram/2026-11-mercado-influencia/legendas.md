@@ -6,7 +6,7 @@ Status possíveis: rascunho · aprovado · publicado.
 
 ## Post 01 — Mercado 6x
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-01.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-01.jpg`
 - Fonte dos dados: Relatório sobre a Creator Economy no Brasil, via Mundo do Marketing (2026)
 - Status: agendado
 
@@ -26,7 +26,7 @@ Salve esta publicação e acompanhe nossa série sobre o mercado de influência.
 
 ## Post 02 — Top 3 do mundo
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-02.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-02.jpg`
 - Fonte dos dados: Influencer Marketing Hub, via Nosso Meio (2025); Influency.me (2026)
 - Status: agendado
 
@@ -44,7 +44,7 @@ Com mais criadores em atividade, a concorrência também cresce. Destacam-se aqu
 
 ## Post 03 — 10% → 62%
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-03.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-03.jpg`
 - Fonte dos dados: CreatorIQ, State of Creator Compensation (2025)
 - Status: agendado
 
@@ -64,7 +64,7 @@ Na MAK CONNECT, acreditamos que toda carreira merece ser conduzida como um negó
 
 ## Post 04 — Budget +57%
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-04.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-04.jpg`
 - Fonte dos dados: HeartBit, via Times Brasil (2026); Kantar, Marketing Trends 2026
 - Status: agendado
 
@@ -82,7 +82,7 @@ Mais investimento também significa maior exigência por resultado. Por isso, a 
 
 ## Post 05 — 7 em cada 10
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-05.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-05.jpg`
 - Fonte dos dados: Opinion Box e Influency.me (2025)
 - Status: agendado
 
@@ -100,7 +100,7 @@ O fator decisivo não é o volume, mas a confiança, que surge quando marca, cri
 
 ## Post 06 — O ponto cego 82%
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-06.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-06.jpg`
 - Fonte dos dados: Relatório citado por Mundo do Marketing (2026)
 - Status: agendado
 
@@ -122,7 +122,7 @@ O que é medido pode ser aprimorado.
 
 ## Post 07 — Do feed ao carrinho
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-07.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-07.jpg`
 - Fonte dos dados: Mundo do Marketing (2026); ABC da Comunicação (2026)
 - Status: agendado
 
@@ -140,7 +140,7 @@ Além disso, um em cada seis criadores vive fora dos grandes centros. Há talent
 
 ## Post 08 — Dois lados, uma conexão
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-mercado-influencia/post-08.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-mercado-influencia/post-08.jpg`
 - Fonte dos dados: Conteúdo institucional MAK CONNECT
 - Status: agendado
 

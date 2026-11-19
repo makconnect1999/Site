@@ -5,7 +5,7 @@ dourado champanhe, luz de estúdio. Imagens 3D geradas a partir de `social-media
 
 ## Conceito 01 — Conexão
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-conceito/conexao.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-conceito/conexao.jpg`
 - Ideia: dois anéis dourados entrelaçados. Influenciadora e marca, unidas com solidez.
 - Status: agendado
 
@@ -21,7 +21,7 @@ MAK CONNECT. Onde marcas encontram influência.
 
 ## Conceito 02 — Solidez
 
-- Imagem: `https://makconnect.netlify.app/social/instagram/2026-11-conceito/solidez.jpg`
+- Imagem: `https://makconnect.com.br/social/instagram/2026-11-conceito/solidez.jpg`
 - Ideia: quatro camadas sobrepostas, a do topo em dourado. O Método MAK: diagnóstico,
   conexão, execução e resultado. Confiança construída em camadas.
 - Status: agendado

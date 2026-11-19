@@ -24,7 +24,7 @@ Para publicar no Instagram por API (Windsor.ai), a imagem precisa ter um endere�
 Tudo o que está em `public/` vai para o site no Netlify. Por isso, cada arte fica disponível em:
 
 ```
-https://makconnect.netlify.app/social/instagram/AAAA-MM-tema/post-01.jpg
+https://makconnect.com.br/social/instagram/AAAA-MM-tema/post-01.jpg
 ```
 
 Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `netlify.toml`).
