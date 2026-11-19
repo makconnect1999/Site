@@ -1,6 +1,6 @@
 # Configuração do Netlify: site estático, sem etapa de build.
 [build]
-  publish = "."
+  publish = "public"
 
 [[headers]]
   for = "/*"
