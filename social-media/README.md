@@ -53,18 +53,21 @@ Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `n
 
 ## Calendário de publicação
 
-Agendado para publicação automática pelo Windsor.ai, às 18h40 (horário de Brasília).
+Publicação automática pelo Windsor.ai, em horários de maior engajamento segundo os estudos de 2026
+(Buffer, Metricool, Sprout Social): terças à noite, quarta ao meio-dia e quintas pela manhã. Horário de Brasília.
 
-| Data | Post |
-|---|---|
-| 19/11 (qui) | Carrossel de abertura (publicado) |
-| 20/11 (sex) | conexao |
-| 21/11 (sáb) | solidez |
-| 24/11 (ter) | post-01 |
-| 26/11 (qui) | post-02 |
-| 01/12 (ter) | post-03 |
-| 03/12 (qui) | post-04 |
-| 08/12 (ter) | post-05 |
-| 10/12 (qui) | post-06 |
-| 15/12 (ter) | post-07 |
-| 17/12 (qui) | post-08 |
+| Data | Horário | Post |
+|---|---|---|
+| 19/11 (qui) | 18h27 | Carrossel de abertura (publicado) |
+| 20/11 (sex) | 18h40 | Conexão |
+| 24/11 (ter) | 19h10 | Mercado 1 |
+| 25/11 (qua) | 12h10 | Solidez |
+| 26/11 (qui) | 9h10 | Mercado 2 |
+| 01/12 (ter) | 19h10 | Mercado 3 |
+| 03/12 (qui) | 9h10 | Mercado 4 |
+| 08/12 (ter) | 19h10 | Mercado 5 |
+| 10/12 (qui) | 9h10 | Mercado 6 |
+| 15/12 (ter) | 19h10 | Mercado 7 |
+| 17/12 (qui) | 9h10 | Mercado 8 |
+
+Depois de 4 a 6 semanas, comparar com o Instagram Insights (Público > Horários mais ativos) e ajustar.
