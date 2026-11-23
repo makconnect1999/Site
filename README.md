@@ -15,7 +15,7 @@ Hero 3D · Sobre (missão e visão) · Influenciadoras / Marcas · Método MAK �
 
 ## Publicação
 - **Provisória — GitHub Pages:** branch `gh-pages` → https://makconnect1999.github.io/Site/
-- **Definitiva — Netlify:** importe o repositório no Netlify. O `netlify.toml` já está configurado (sem build, publica a pasta `public/`). O formulário usa Netlify Forms (mensagens em Netlify → Forms). Fora do Netlify, ele abre o app de e-mail do visitante.
+- **Definitiva — Netlify (https://makconnect.com.br):** importe o repositório no Netlify. O `netlify.toml` já está configurado (sem build, publica a pasta `public/`). O formulário usa Netlify Forms (mensagens em Netlify → Forms). Fora do Netlify, ele abre o app de e-mail do visitante.
 
 ## SEO e IAs
 - Metatags completas (título, descrição, canonical, Open Graph, Twitter) e imagem de prévia `og-image.png`.

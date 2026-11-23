@@ -24,7 +24,7 @@ Para publicar no Instagram por API (Windsor.ai), a imagem precisa ter um endere�
 Tudo o que está em `public/` vai para o site no Netlify. Por isso, cada arte fica disponível em:
 
 ```
-https://makconnect.netlify.app/social/instagram/AAAA-MM-tema/post-01.jpg
+https://makconnect.com.br/social/instagram/AAAA-MM-tema/post-01.jpg
 ```
 
 Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `netlify.toml`).
@@ -53,18 +53,41 @@ Essas páginas não aparecem no Google (cabeçalho `X-Robots-Tag: noindex` no `n
 
 ## Calendário de publicação
 
-Agendado para publicação automática pelo Windsor.ai, às 18h40 (horário de Brasília).
+Um post por dia, sempre no horário de maior engajamento de cada dia da semana segundo os estudos
+de 2026 (Buffer, Metricool, Sprout Social, Hootsuite). Publicação automática pelo Windsor.ai. Horário de Brasília.
+
+| Data | Horário | Post |
+|---|---|---|
+| 19/11 (qui) | 18h27 | Carrossel de abertura (publicado) |
+| 20/11 (sex) | 18h40 | Conexão (publicado) |
+| 23/11 (seg) | 20h10 | Solidez |
+| 24/11 (ter) | 19h10 | Mercado 1 |
+| 25/11 (qua) | 12h10 | Mercado 2 |
+| 26/11 (qui) | 9h10 | Mercado 3 |
+| 27/11 (sex) | 11h10 | Mercado 4 |
+| 28/11 (sáb) | 10h10 | Mercado 5 |
+| 29/11 (dom) | 20h10 | Mercado 6 |
+| 30/11 (seg) | 20h10 | Mercado 7 |
+| 01/12 (ter) | 19h10 | Mercado 8 |
+
+Horário por dia da semana: seg 20h10 · ter 19h10 · qua 12h10 · qui 9h10 · sex 11h10 · sáb 10h10 · dom 20h10.
+Depois de 4 a 6 semanas, comparar com o Instagram Insights (Público > Horários mais ativos) e ajustar.
+
+### Dezembro
 
 | Data | Post |
 |---|---|
-| 19/11 (qui) | Carrossel de abertura (publicado) |
-| 20/11 (sex) | conexao |
-| 21/11 (sáb) | solidez |
-| 24/11 (ter) | post-01 |
-| 26/11 (qui) | post-02 |
-| 01/12 (ter) | post-03 |
-| 03/12 (qui) | post-04 |
-| 08/12 (ter) | post-05 |
-| 10/12 (qui) | post-06 |
-| 15/12 (ter) | post-07 |
-| 17/12 (qui) | post-08 |
+| qua 02/12 12h10 | d1-recorrentes |
+| qui 03/12 9h10 | ca-marca |
+| sex 04/12 11h10 | equilibrio |
+| sáb 05/12 10h10 | b1-nicho |
+| dom 06/12 20h10 | curadoria |
+| seg 07/12 20h10 | d2-regional |
+| ter 08/12 19h10 | cb-midiakit |
+| qua 09/12 12h10 | d3-jornada |
+| qui 10/12 9h10 | cc-contrato |
+| sex 11/12 11h10 | precisao |
+| sáb 12/12 10h10 | b2-feedback |
+| dom 13/12 20h10 | constancia |
+| seg 14/12 20h10 | d4-blackfriday |
+| ter 15/12 19h10 | cd-metodo |
