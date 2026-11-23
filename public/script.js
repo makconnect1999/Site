@@ -103,7 +103,7 @@
 
   // Formulário de contato
   // Envio pelo Netlify Forms; sem ele, a mensagem abre no app de e-mail.
-  var CONTACT_EMAIL = 'contato.makconnect@gmail.com';
+  var CONTACT_EMAIL = 'contato@makconnect.com.br';
   var form = document.getElementById('form');
   var status = document.getElementById('form-status');
   form.addEventListener('submit', function (e) {

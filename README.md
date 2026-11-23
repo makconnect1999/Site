@@ -8,7 +8,7 @@ Site estático (HTML, CSS e JavaScript). As páginas fixas ficam em `public/` e 
 Hero 3D · Sobre (missão e visão) · Influenciadoras / Marcas · Método MAK · Valores · Boutique · Contato
 
 ## Contato
-- E-mail: contato.makconnect@gmail.com
+- E-mail: contato@makconnect.com.br
 - Instagram: @mak.connect
 - WhatsApp: (11) 99705-3316
 

@@ -122,7 +122,7 @@ const footer = `
     <div class="logo logo-sm" role="img" aria-label="MAK CONNECT"><svg class="logo-svg" viewBox="97 179 305 142" aria-hidden="true" focusable="false"><use href="/logo.svg#g-mak"/><use href="/logo.svg#g-connect"/></svg></div>
     <address class="foot-addr">São Paulo · SP · Brasil</address>
     <span class="foot-links">
-      <a href="mailto:contato.makconnect@gmail.com">contato.makconnect@gmail.com</a>
+      <a href="mailto:contato@makconnect.com.br">contato@makconnect.com.br</a>
       <a href="https://www.instagram.com/mak.connect/" target="_blank" rel="noopener">@mak.connect</a>
       <a href="https://wa.me/5511997053316" target="_blank" rel="noopener">(11) 99705-3316</a>
     </span>
