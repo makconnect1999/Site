@@ -72,3 +72,22 @@ de 2026 (Buffer, Metricool, Sprout Social, Hootsuite). Publicação automática 
 
 Horário por dia da semana: seg 20h10 · ter 19h10 · qua 12h10 · qui 9h10 · sex 11h10 · sáb 10h10 · dom 20h10.
 Depois de 4 a 6 semanas, comparar com o Instagram Insights (Público > Horários mais ativos) e ajustar.
+
+### Dezembro
+
+| Data | Post |
+|---|---|
+| qua 02/12 12h10 | d1-recorrentes |
+| qui 03/12 9h10 | ca-marca |
+| sex 04/12 11h10 | equilibrio |
+| sáb 05/12 10h10 | b1-nicho |
+| dom 06/12 20h10 | curadoria |
+| seg 07/12 20h10 | d2-regional |
+| ter 08/12 19h10 | cb-midiakit |
+| qua 09/12 12h10 | d3-jornada |
+| qui 10/12 9h10 | cc-contrato |
+| sex 11/12 11h10 | precisao |
+| sáb 12/12 10h10 | b2-feedback |
+| dom 13/12 20h10 | constancia |
+| seg 14/12 20h10 | d4-blackfriday |
+| ter 15/12 19h10 | cd-metodo |
