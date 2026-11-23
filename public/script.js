@@ -26,7 +26,7 @@
   for (var i = 14; i >= 1; i--) {
     var layer = document.createElement('div');
     layer.className = 'mark-layer';
-    layer.textContent = 'MAK';
+    layer.innerHTML = '<svg viewBox="97 179 305 89" aria-hidden="true" focusable="false"><use href="logo.svg#g-mak"/></svg>';
     layer.style.color = 'hsl(36, 8%, ' + Math.max(10, 74 - i * 4.4) + '%)';
     layer.style.transform = 'translateZ(' + (-i * 2.2).toFixed(1) + 'px)';
     mark.insertBefore(layer, top);

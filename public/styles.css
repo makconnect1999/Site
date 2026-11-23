@@ -56,9 +56,8 @@ h2{font-size:clamp(34px, 4.2vw, 56px);line-height:1.08;font-weight:500;letter-sp
 
 /* Logo */
 .logo{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--ink);line-height:1}
-.logo-mak{font-size:24px;font-weight:600;letter-spacing:.22em;padding-left:.22em}
-.logo-connect{font-size:9px;font-weight:500;letter-spacing:.62em;padding-left:.62em;margin-top:5px}
-.logo-sm .logo-mak{font-size:20px}.logo-sm .logo-connect{font-size:8px}
+.logo-svg{display:block;width:96px;height:auto;aspect-ratio:305/142}
+.logo-sm .logo-svg{width:80px}
 
 /* Nav */
 .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:28px;padding-bottom:28px;position:relative;z-index:20}
@@ -94,10 +93,13 @@ h2{font-size:clamp(34px, 4.2vw, 56px);line-height:1.08;font-weight:500;letter-sp
 .accent{background:var(--accent)}.light{background:var(--ink)}
 .mark-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;perspective:900px}
 .mark{position:relative;transform-style:preserve-3d;will-change:transform}
-.mark-layer,.mark-top{font-size:min(118px, 22cqw);font-weight:600;letter-spacing:.12em;padding-left:.12em;line-height:1}
+.mark-layer,.mark-top{width:min(300px, 56cqw);line-height:0}
+.mark-layer svg,.mark-top svg,.mark-sub svg{display:block;width:100%;height:auto;fill:currentColor}
+.mark-layer svg,.mark-top svg{aspect-ratio:305/89}
 .mark-layer{position:absolute;left:0;top:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .mark-top{position:relative;color:var(--ink);transform:translateZ(1px)}
-.mark-sub{font-size:min(25px, 4.7cqw);font-weight:500;letter-spacing:.56em;padding-left:.56em;text-align:center;margin-top:12px;transform:translateZ(30px)}
+.mark-sub{width:min(300px, 56cqw);margin-top:min(20px, 3.7cqw);line-height:0;transform:translateZ(30px)}
+.mark-sub svg{aspect-ratio:305/34}
 .chip-pos{position:absolute}
 .c1{left:0;top:16%;transform:translateZ(110px)}
 .c2{right:0;bottom:20%;transform:translateZ(140px)}

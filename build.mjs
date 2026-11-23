@@ -99,8 +99,7 @@ ${extra}  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header class="nav wrap">
   <a href="/" class="logo" aria-label="MAK CONNECT — início">
-    <span class="logo-mak">MAK</span>
-    <span class="logo-connect">CONNECT</span>
+    <svg class="logo-svg" viewBox="97 179 305 142" aria-hidden="true" focusable="false"><use href="/logo.svg#g-mak"/><use href="/logo.svg#g-connect"/></svg>
   </a>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
     <span></span><span></span>
@@ -120,7 +119,7 @@ ${extra}  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 const footer = `
 <footer class="footer">
   <div class="wrap foot">
-    <div class="logo logo-sm"><span class="logo-mak">MAK</span><span class="logo-connect">CONNECT</span></div>
+    <div class="logo logo-sm" role="img" aria-label="MAK CONNECT"><svg class="logo-svg" viewBox="97 179 305 142" aria-hidden="true" focusable="false"><use href="/logo.svg#g-mak"/><use href="/logo.svg#g-connect"/></svg></div>
     <address class="foot-addr">São Paulo · SP · Brasil</address>
     <span class="foot-links">
       <a href="mailto:contato.makconnect@gmail.com">contato.makconnect@gmail.com</a>
